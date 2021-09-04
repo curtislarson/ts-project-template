@@ -1,0 +1,30 @@
+# Logs
+*.log*
+
+# Builds
+build
+.eslintcache
+
+# Dependency directories
+node_modules
+
+# OSX
+.DS_Store
+
+# Windows
+*~
+
+# dot env files
+*.env
+
+.vscode
+
+.cache
+
+# ts output
+*.tsbuildinfo
+
+# Test fixtures
+__fixtures__
+
+package-lock.json

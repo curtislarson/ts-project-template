@@ -1,0 +1,43 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "incremental": true,
+    "importHelpers": true,
+
+    /* Checks */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Project References */
+    "composite": true,
+
+    "paths": {}
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true,
+    "transpileOnly": true,
+    "transpiler": "ts-node/transpilers/swc-experimental"
+  }
+}

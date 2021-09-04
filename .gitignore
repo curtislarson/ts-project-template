@@ -1,0 +1,17 @@
+# Output
+build
+.eslintcache
+*.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Config
+*.env
+.vscode
+
+# OSX
+.DS_Store
+
+# Windows
+*~

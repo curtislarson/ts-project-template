@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "core",
+  "description": "Core",
+  "author": "Curtis Larson <curtismlarson@gmail.com>",
+  "version": "0.0.1",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": "./build/index.js"
+}

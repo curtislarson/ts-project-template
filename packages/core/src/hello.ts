@@ -1,5 +1,3 @@
-import os from "os";
-
 export const hello = () => {
-  return `Hello ${os.hostname()}`;
+  return `Hello Victor`;
 };

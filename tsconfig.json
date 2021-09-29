@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.paths",
-  "include": ["./*.json"],
+  "include": ["./**/*.ts"],
   "compilerOptions": {
     "target": "es2019",
     "module": "commonjs",
